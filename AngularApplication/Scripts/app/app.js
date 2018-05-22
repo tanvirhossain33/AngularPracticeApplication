@@ -40,8 +40,22 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
                     controller: 'scotchController'
                 }
             }
-        }); 
-}); 
+        })
+
+
+
+        .state('datePicker', {
+            url: '/datePicker',
+            templateUrl: 'partials/datePicker.html',
+            controller: 'DatePickerCtrl'
+        });
+});
+
+
+myApp.controller('DatePickerCtrl', function ($scope) {
+
+
+});
 
 
 myApp.controller('scotchController', function ($scope) {
