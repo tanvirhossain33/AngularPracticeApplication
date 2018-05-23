@@ -42,7 +42,27 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
             url: '/alert',
             templateUrl: 'partials/alert.html',
             controller: 'AlertCtrl'
+        })
+        .state('modal', {
+            url: '/modal',
+            templateUrl: 'partials/modalexample.html',
+            controller:'ModalCtrl'
         });
+});
+
+myApp.controller('ModalCtrl', function ($scope) {
+    this.showModal = false;
+    this.showView = false;
+    this.counter = 1;
+    this.toggleDialog = function () {
+        this.showModal = !this.showModal;
+    }
+    this.toggleView = function () {
+        this.showView = !this.showView;
+    }
+    this.changeDisplay = function () {
+        this.counter++;
+    }
 });
 
 myApp.controller('AlertCtrl', function ($scope) {
