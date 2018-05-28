@@ -102,10 +102,15 @@
     <Content Include="partials\alert.html" />
     <Content Include="partials\datePicker.html" />
     <Content Include="partials\modalexample.html" />
+    <Content Include="partials\modals\sample.html" />
+    <Content Include="partials\modals\sample2.html" />
+    <Content Include="Scripts\angular-ui-router.js" />
+    <Content Include="Scripts\angular-ui-router.min.js" />
     <Content Include="Scripts\angular-ui\ui-bootstrap-tpls.js" />
     <Content Include="Scripts\angular-ui\ui-bootstrap-tpls.min.js" />
     <Content Include="Scripts\angular-ui\ui-bootstrap.js" />
     <Content Include="Scripts\angular-ui\ui-bootstrap.min.js" />
+    <Content Include="Scripts\app\controllers.js" />
     <Content Include="Scripts\vendor\angular\version.json" />
     <Content Include="Scripts\vendor\angular\errors.json" />
     <Content Include="Scripts\vendor\angular\angular.min.js.map" />
